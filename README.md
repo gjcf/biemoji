@@ -144,6 +144,7 @@ footer {
 - `deleteEmoji()`: 点击删除按钮触发的方法
 - `buttton`: 是否显示删除按钮，可省略，布尔类型，默认为true
 - `height`: 面板高度，可省略，整数类型，默认为160
+- `hidden`: 选择要隐藏的表情面板，可省略，字符串数组类型，默认为空即都显示，`hidden=['XX']`则表示隐藏XX表情
 
 **全局方法**
 
@@ -154,7 +155,7 @@ this.value = this.$string2emoji(this.value)
 this.value = this.$deleteEmoji(this.value)
 ```
 
-## 效果
+## 在线体验
 
 [demo](https://biemoji.vercel.app)
 

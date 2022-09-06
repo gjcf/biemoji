@@ -2,7 +2,7 @@
   "name": "biemoji",
   "private": false,
   "keywords": ["vue", "vue3", "emoji", "biemoji"],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/newbill/biemoji",
   "license": "MIT",
   "scripts": {
